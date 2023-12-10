@@ -1,0 +1,131 @@
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color: #1da2d8;
+}
+
+
+
+
+.logo{
+    display: flex;
+    height: 50px;
+}
+.sec1{
+    background-color: 	#f9fed3;
+    height: 400px;
+    margin-top: 100px;
+}
+h1{
+    font-size: 48px;
+    position: absolute;
+    padding-top: 30px;
+}
+.yonko{
+    display: flex;
+    height: 300px;
+    justify-content: flex-end;
+    padding-right: 60px;
+    padding-top: 50px;
+
+}
+p{
+    position: absolute;
+    padding-top: 140px;
+}
+.link > a{
+    background-color: #11485e;
+    display: flex;
+    justify-self: center;
+    width: 10em;
+    height: 2em;
+    justify-content: center;
+    align-items: center;
+    color: #f9fed3;
+    border: 2px solid black;
+    border-radius: 2em;
+}
+.link{
+    padding-left: 50px;
+    height: 150px;
+    width: 400px;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    
+    
+}
+.link > a:hover{
+    cursor: pointer;
+}
+.sec2{
+    background-color: 	#f9fed3;
+    height: 600px;
+    margin-top: 100px;
+    display: flex;
+}
+.images{
+    display: flex;
+    height: 400px;
+    width: 1800px;
+    justify-content: center;
+    min-width: none;
+    justify-self: center;
+    min-height: 0;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: flex-end;
+}
+.linlin{
+    display: flex;
+    justify-content: flex-end;
+    flex-shrink: 20;
+    width: 25%;
+    height: 50%;
+    margin: 20px;
+    border: 4px solid black;
+}
+.shanks, .edward, .kaido{
+    display: flex;
+    justify-content: flex-end;
+    height: 50%;
+    flex:1;
+    margin: 20px;
+    border: 4px solid black;
+    flex-grow: 10;
+}
+.shanks{
+    width: 200px;
+}
+.img {
+     max-width: 100%; 
+     height: auto;
+     width: 100%; 
+    }
+.quote{
+    top:100%;}
+nav{
+    position:fixed;
+    width: 100%;
+    top:0%;
+    color: aliceblue;
+    border: 2px solid black;
+    padding: 20px 0;
+    background-color: #11485e;
+    right: 0.001%;
+    height: 30px;
+
+}
+a{
+    color: aliceblue;
+}
+nav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
